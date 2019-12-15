@@ -9,3 +9,28 @@ body {
     border-radius: 10px;
 }
 
+.nav-link {
+    font-size: 120%;
+    font-family: "Roboto", sans-serif;
+    color: white !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #53adc0 !important;
+}
+
+.site-footer {
+    background-color: #133975;
+    padding: 20px 0px;
+    color: white;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer a:hover {
+    color: #53adc0;
+    text-decoration: none;
+}
