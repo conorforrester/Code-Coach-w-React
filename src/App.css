@@ -20,6 +20,24 @@ body {
     color: #53adc0 !important;
 }
 
+/* Start -- Home Component Cards */
+.card-body {
+    background-color: #133975;
+    opacity: 85%;
+    border-radius: 10px;
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 10px;
+}
+/* End -- Home Component Cards */
+
 .site-footer {
     background-color: #133975;
     padding: 20px 0px;
@@ -34,3 +52,4 @@ body {
     color: #53adc0;
     text-decoration: none;
 }
+

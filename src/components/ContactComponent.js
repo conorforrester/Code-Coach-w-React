@@ -11,9 +11,8 @@ class Main extends Component {
         return (
             <div>
                 <Header />
-
                 <Switch>
-                    <Route exact path='/home' component={Home} />                  
+                    
                 </Switch>
                 <Footer />
             </div>
