@@ -53,3 +53,35 @@ body {
     text-decoration: none;
 }
 
+.breadcrumb {
+    background: #133975;
+    opacity: 85%;
+}
+
+.breadcrumb li a {
+    color: white;
+}
+
+.breadcrumb li {
+    color: #53adc0 !important;
+}
+
+hr {
+    background-color: white;
+}
+
+/* About Component Circle Icons */
+.circlebg {
+    background: #133975;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    opacity: 85%;
+    height: 275px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+h3 {
+    padding: 0 40px 0 40px;
+    font-weight: 300;
+}
