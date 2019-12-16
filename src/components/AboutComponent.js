@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardText, Media } from 'reactstrap';
+import AboutCarousel from './CarouselComponent';
 import { Link } from 'react-router-dom';
+
 
 function About(props){
     return (
@@ -53,6 +55,11 @@ function About(props){
                     <i className="fa fa-handshake-o fa-5x" aria-hidden="true"></i>  
                 </div>
             </div>
+        </div>
+
+
+        <div class="container">
+            <AboutCarousel />
         </div>
         </React.Fragment>
     );

@@ -16,6 +16,7 @@ class Main extends Component {
                 <Switch>
                     <Route exact path='/home' component={Home} />                  
                     <Route exact path='/aboutus' component={About} />
+                    <Redirect to='/home' />
                 </Switch>
                 <Footer />
             </div>

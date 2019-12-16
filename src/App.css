@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-image: url(./carousel3.jpg);
+    background-attachment: fixed;
 }
 
 .card-body {
@@ -84,4 +85,36 @@ hr {
 h3 {
     padding: 0 40px 0 40px;
     font-weight: 300;
+}
+
+.carousel {
+    background-color: #133975;
+    opacity: 85%;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.carousel-caption p {
+    padding-bottom: 0px;
+    padding-top: 0px;;
+}
+
+.carousel img {
+    margin:auto;
+    margin-bottom: 150px;
+    margin-top: 25px;
+    padding: auto;
+}
+
+.invert{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 5px;
 }
