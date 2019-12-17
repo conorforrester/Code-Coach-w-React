@@ -126,11 +126,19 @@ h3 {
     border: 3px #133975 solid;
 }
 
-/* .coachcards {
-    height: auto;
-    max-width: 100%;
-} */
+.formcontainer {
+    background: #133975;
+    opacity: 85%;
+}
 
 h3 {
     padding: 0 0;
+}
+
+.col a {
+    color: white;
+}
+
+.col a:hover {
+    color:#53adc0;
 }
