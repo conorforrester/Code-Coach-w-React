@@ -1,7 +1,7 @@
 export const COACHES = [
     {
         id: 0,
-        name: "Mark Wang",
+        name: "Mark Zhing",
         image: "/img/coach1.jpg",
         line1: 'Python',
         line2: '15+ Years Experience',

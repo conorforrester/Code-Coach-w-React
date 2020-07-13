@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     background-image: url(./carousel3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -17,8 +19,12 @@ body {
     text-align: center;
 }
 
+.Navbar {
+    background-color: #53adc0;
+}
+
 .nav-link:hover {
-    color: #53adc0 !important;
+    color: #133975 !important;
 }
 
 /* Start -- Home Component Cards */
@@ -43,6 +49,7 @@ body {
     background-color: #133975;
     padding: 20px 0px;
     color: white;
+    height: 25vh;
 }
 
 .site-footer a {

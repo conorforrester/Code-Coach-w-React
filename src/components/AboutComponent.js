@@ -58,7 +58,7 @@ function About(props){
         </div>
 
 
-        <div class="container">
+        <div className="container">
             <AboutCarousel />
         </div>
         </React.Fragment>
